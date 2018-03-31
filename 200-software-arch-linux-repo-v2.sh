@@ -2,11 +2,11 @@
 set -e
 ##################################################################################################################
 # Author 	: 	Erik Dubois
-# Website 	: 	https://www.erikdubois.be
-# Website	:	https://www.archmerge.info
-# Website	:	https://www.archmerge.com
-# Website	:	https://www.archmerged.com
-# Website	:	https://www.archmergeforum.com
+# Website : https://www.erikdubois.be
+# Website	:	https://www.arcolinux.info
+# Website	:	https://www.arcolinux.com
+# Website	:	https://www.arcolinuxd.com
+# Website	:	https://www.arcolinuxforum.com
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -19,8 +19,8 @@ echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
-#sudo pacman -S --noconfirm --needed galculator
-#sudo pacman -S --noconfirm --needed gnome-screenshot
+sudo pacman -S --noconfirm --needed galculator
+sudo pacman -S --noconfirm --needed gnome-screenshot
 #sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
 sudo pacman -S --noconfirm --needed xfburn
@@ -32,7 +32,7 @@ echo "Installing category Development"
 
 sudo pacman -S --noconfirm --needed atom
 #sudo pacman -S --noconfirm --needed geany
-#sudo pacman -S --noconfirm --needed meld
+sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
@@ -46,17 +46,17 @@ echo "Installing category Games"
 echo "Installing category Graphics"
 
 sudo pacman -S --noconfirm --needed darktable
-#sudo pacman -S --noconfirm --needed gimp
+sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed gpick
-#sudo pacman -S --noconfirm --needed inkscape
+sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
-#sudo pacman -S --noconfirm --needed ristretto
+sudo pacman -S --noconfirm --needed ristretto
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
 
-#sudo pacman -S --noconfirm --needed chromium
+sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
@@ -67,19 +67,20 @@ sudo pacman -S --noconfirm --needed transmission-gtk
 echo "Installing category Multimedia"
 
 #sudo pacman -S --noconfirm --needed clementine
-sudo pacman -S --noconfirm --needed deadbeef
-sudo pacman -S --noconfirm --needed mpv
+#sudo pacman -S --noconfirm --needed deadbeef
+#sudo pacman -S --noconfirm --needed mpv
 #sudo pacman -S --noconfirm --needed openshot
+sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
-#sudo pacman -S --noconfirm --needed simplescreenrecorder
+sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed vlc
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Office"
 
-#sudo pacman -S --noconfirm --needed evince
-#sudo pacman -S --noconfirm --needed evolution
+sudo pacman -S --noconfirm --needed evince
+sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
 #sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
@@ -90,7 +91,7 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
-sudo pacman -S --noconfirm --needed archey3
+#sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed bleachbit
 sudo pacman -S --noconfirm --needed curl
@@ -101,6 +102,7 @@ sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed gksu
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed gnome-disk-utility
+sudo pacman -S --noconfirm --needed gnome-keyring
 #sudo pacman -S --noconfirm --needed gnome-system-monitor
 #sudo pacman -S --noconfirm --needed gnome-terminal
 #sudo pacman -S --noconfirm --needed gnome-tweak-tool
@@ -116,7 +118,7 @@ sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed lsb-release
 sudo pacman -S --noconfirm --needed mlocate
 sudo pacman -S --noconfirm --needed net-tools
-sudo pacman -S --noconfirm --needed notify-osd
+#sudo pacman -S --noconfirm --needed notify-osd
 sudo pacman -S --noconfirm --needed noto-fonts
 sudo pacman -S --noconfirm --needed numlockx
 sudo pacman -S --noconfirm --needed polkit-gnome
